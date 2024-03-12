@@ -56,7 +56,7 @@ public class AbstractTest  {
     protected String orderStatusTopic;
 
     @BeforeEach
-    public void before() throws Exception {
+    public void before(){
 
         upsertOrderRequest = new UpsertOrderRequest();
         upsertOrderRequest.setProduct("test");

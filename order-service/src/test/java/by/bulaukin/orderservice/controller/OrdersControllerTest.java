@@ -1,7 +1,6 @@
 package by.bulaukin.orderservice.controller;
 
 import by.bulaukin.orderservice.AbstractTest;
-import by.bulaukin.orderservice.model.OrdersStatusEvent;
 import by.bulaukin.orderservice.web.response.ResponseMessage;
 import net.javacrumbs.jsonunit.JsonAssert;
 import org.junit.jupiter.api.Test;
